@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".MainActivity"
+
+        android:orientation="horizontal">
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight= "1"
+            >
+        <ImageButton
+                app:srcCompat="@drawable/a"
+                android:id="@+id/ib0"
+                android:tag="a"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:background="#ffffff"
+                android:adjustViewBounds="true" />
+
+        <ImageButton
+                app:srcCompat="@drawable/b" android:id="@+id/ib1"
+                android:tag="b"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true" />
+        <ImageButton
+                app:srcCompat="@drawable/c"
+                android:id="@+id/ib2"
+                android:tag="c"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true" />
+        <ImageButton
+                app:srcCompat="@drawable/d" android:id="@+id/ib3"
+                android:tag="d"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true" />
+        <ImageButton
+                app:srcCompat="@drawable/e" android:id="@+id/ib4"
+                android:tag="e"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true" />
+        <ImageButton
+                app:srcCompat="@drawable/f" android:id="@+id/ib5"
+                android:tag="f"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true" />
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+                app:srcCompat="@drawable/g" android:id="@+id/ib6"
+                android:tag="g"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+        <ImageButton
+                app:srcCompat="@drawable/h" android:id="@+id/ib7"
+                android:tag="h"
+                android:layout_width ="0dip"
+                android:background="#ffffff"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+        <ImageButton
+                app:srcCompat="@drawable/i" android:id="@+id/ib8"
+                android:tag="i"
+                android:layout_width ="0dip"
+                android:background="#ffffff"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+
+        <ImageButton
+                app:srcCompat="@drawable/j" android:id="@+id/ib9"
+                android:tag="j"
+                android:layout_width ="0dip"
+                android:background="#ffffff"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+        <ImageButton
+                app:srcCompat="@drawable/k" android:id="@+id/ib10"
+                android:tag="k"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+        <ImageButton
+                app:srcCompat="@drawable/l" android:id="@+id/ib11"
+                android:tag="l"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+    </TableRow>
+    <TableRow>
+
+        <ImageButton
+                app:srcCompat="@drawable/m" android:id="@+id/ib12"
+                android:tag="m"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+
+        <ImageButton
+                app:srcCompat="@drawable/n" android:id="@+id/ib13"
+                android:tag="n"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+
+        <ImageButton
+                app:srcCompat="@drawable/o" android:id="@+id/ib14"
+                android:tag="o"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+
+        <ImageButton
+                app:srcCompat="@drawable/p" android:id="@+id/ib15"
+                android:tag="p"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+        <ImageButton
+                app:srcCompat="@drawable/q" android:id="@+id/ib16"
+                android:tag="q"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+        <ImageButton
+                app:srcCompat="@drawable/r" android:id="@+id/ib17"
+                android:tag="r"
+                android:background="#ffffff"
+                android:layout_width ="0dip"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_weight = "1"
+                android:adjustViewBounds="true"/>
+    </TableRow>
+
+</TableLayout>
