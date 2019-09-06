@@ -49,17 +49,16 @@ class ChooseEmotionActivity : AppCompatActivity() {
                 val filename = "Como me siento $date.txt"
                 val path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
 
+                // if the directory does not exist, make it
+                path.mkdirs()
+
                 // write text to file
                 File(path, filename).appendText(text)
-
-                // return to previous screen
-                //ViewGroup group = (ViewGroup) toast.getView();
-                //TextView messageTextView = (TextView) group.getChildAt(0);
-                //messageTextView.setTextSize(25)
 
                 var t = Toast.makeText(this,  "¡Gracias!", Toast.LENGTH_LONG)
                 ((t.getView() as LinearLayout).getChildAt(0) as TextView).textSize = 30f
                 t.show()
+
                 super.finish()
             }
         }
