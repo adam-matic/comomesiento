@@ -19,11 +19,17 @@ import android.support.v4.app.SupportActivity
 import android.support.v4.app.SupportActivity.ExtraData
 import android.support.v4.content.ContextCompat.getSystemService
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-
+import android.view.Menu
+import android.view.MenuItem
 
 
 class ChooseEmotionActivity : AppCompatActivity() {
 
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val subMenu = menu.addSubMenu(0, Menu.NONE, 0, "www.freepik.com")
+        subMenu.item.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)
+        return true
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_choose_emotion)
